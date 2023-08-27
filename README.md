@@ -1,2 +1,2 @@
-# LogisticRegression
-Logistic regression is a data analysis technique that uses mathematics to find the relationships between two data factors. It then uses this relationship to predict the value of one of those factors based on the other. The prediction usually has a finite number of outcomes, like yes or no.
+# LogisticRegression for Predicting Extramarital Affairs 
+Using logistic regression, this study seeks to forecast the chance of romantic liaisons. It consists of model training, model evaluation, data visualization, and data preprocessing.
