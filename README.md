@@ -4,7 +4,6 @@ Using logistic regression, this study seeks to forecast the chance of romantic l
 ## Table of Contents
 - [Project Description](#project-description)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Requirements](#requirements)
 
 # Project Description
@@ -12,10 +11,10 @@ The project makes use of the logistic regression technique to forecast romantic 
 
 The project's components are as follows:
 
-Data Preprocessing: The dataset has been preprocessed to deal with missing values and produce binary labels for issues.
-Data visualization: Visualizations are made to investigate the connection between various characteristics and the occurrence of affairs.
-Model Training: The preprocessed dataset is used to train the logistic regression model.
-Model Evaluation: Accuracy, confusion matrix, classification report, and ROC curve are used to assess the trained model.
+- Data Preprocessing: The dataset has been preprocessed to deal with missing values and produce binary labels for issues.
+- Data visualization: Visualizations are made to investigate the connection between various characteristics and the occurrence of affairs.
+- Model Training: The preprocessed dataset is used to train the logistic regression model.
+- Model Evaluation: Accuracy, confusion matrix, classification report, and ROC curve are used to assess the trained model.
 
 # Installation
 
@@ -38,9 +37,11 @@ git clone https://github.com/your_username/relationship-affairs-prediction.git
    ```
    source env/bin/activate
   ```
-
-    For Windows
-    ```env\Scripts\activate
+   
+   For Windows
+    ```
+    env\Scripts\activate
+    
     ```
 
 5. Install the dependencies:
@@ -48,10 +49,6 @@ git clone https://github.com/your_username/relationship-affairs-prediction.git
    pip install -r requirements.txt
 ```
 
-# Usage
-1. Run the main.py file to execute the project:
-   (python main.py)
-2. The program will perform data preprocessing, data visualization, model training, and evaluation. The results will be displayed in the console and relevant figures will be saved in the figures directory.
 
 # Requirements
 The project requires the following dependencies:
