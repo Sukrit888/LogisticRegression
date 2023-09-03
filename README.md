@@ -1,11 +1,11 @@
 # Logistic Regression for Predicting Extramarital Affairs 
 Using logistic regression, this study seeks to forecast the chance of romantic liaisons. It consists of model training, model evaluation, data visualization, and data preprocessing.
 
-# Table of contents
-[Project Description]
-[Installation]
-[Usage]
-[Requirements]
+## Table of Contents
+- [Project Description](#project-description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Requirements](#requirements)
 
 # Project Description
 The project makes use of the logistic regression technique to forecast romantic relationships based on a number of characteristics, including marriage rating, age, years of marriage, children, religiousness, education, and occupation. The dataset utilized is the Statsmodels library's "Fair's Extramarital Affairs" dataset.
@@ -20,22 +20,33 @@ Model Evaluation: Accuracy, confusion matrix, classification report, and ROC cur
 # Installation
 
 1. Clone the repository:
-  (git clone https://github.com/your_username/relationship-affairs-prediction.git)
+```
+git clone https://github.com/your_username/relationship-affairs-prediction.git
+```
 
 2. Change directories to project directory:
-   (cd relationship-affairs-prediction)
+```
+   cd relationship-affairs-prediction
+```
 
 3. Create a virtual environment (optional):
-   (python -m venv env)
+```
+   python -m venv env
+```
 
    For Linux/ Mac:
-   (source env/bin/activate)
+   ```
+   source env/bin/activate
+  ```
 
     For Windows
-    (env\Scripts\activate)
+    ```env\Scripts\activate
+    ```
 
-4. Install the dependencies:
-   (pip install -r requirements.txt)
+5. Install the dependencies:
+```
+   pip install -r requirements.txt
+```
 
 # Usage
 1. Run the main.py file to execute the project:
