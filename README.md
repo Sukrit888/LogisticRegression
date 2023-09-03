@@ -61,5 +61,7 @@ The project requires the following dependencies:
 6. scikit-learn==0.24.2
 7. imbalanced-learn==0.8.0
 You can install all the dependencies by running the command:
-(pip install -r requirements.txt)
+```
+pip install -r requirements.txt
+```
  
